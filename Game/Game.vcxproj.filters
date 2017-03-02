@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="TunnelGame.cpp" />
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Tunnel.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipControllerComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TunnelLevel.cpp" />
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreDisplay.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlSelectScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoresScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="NameEntryScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="HighScores.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUp.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TunnelSpeedMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{fde6b9a5-2c23-4073-ab86-789ff904e1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages">
+      <UniqueIdentifier>{30dbb41c-9fda-4af7-aaea-32d910e115ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{2748316b-4e45-447d-b6ac-d7471f2f4edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{03a32be0-7bd4-41f3-9921-92d77fc0f8a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{1bd615e2-5b41-44ff-af83-542139d0b40f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures">
+      <UniqueIdentifier>{5f60322a-7a65-4881-b7c4-d46477803f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Models">
+      <UniqueIdentifier>{84028f17-983f-4bf4-95d2-fdc7f03081ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Fonts">
+      <UniqueIdentifier>{9299ddbc-0313-4535-a28f-cd54f29b7988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Buttons">
+      <UniqueIdentifier>{8d21d614-0099-4078-9f7c-607604113fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{9047bf0d-a8be-40d6-80d8-242f6ae7725b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TunnelGame.h" />
+    <ClInclude Include="GameScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Tunnel.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipControllerComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMatrix.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TunnelLevel.h" />
+    <ClInclude Include="Obstacle.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreDisplay.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlSelectScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoresScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="NameEntryScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="HighScores.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUp.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TunnelSpeedMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shaders.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Assets\Textures\ship.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="..\Assets\Textures\texture.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="..\Assets\Textures\texture2.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="..\Assets\Textures\obstacle.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="..\Assets\Fonts\8BitFont.png">
+      <Filter>Assets\Fonts</Filter>
+    </Image>
+    <Image Include="..\Assets\Fonts\8Bit.dds">
+      <Filter>Assets\Fonts</Filter>
+    </Image>
+    <Image Include="..\Assets\Textures\Buttons\scores.dds">
+      <Filter>Assets\Textures\Buttons</Filter>
+    </Image>
+    <Image Include="..\Assets\Textures\Buttons\versus.dds">
+      <Filter>Assets\Textures\Buttons</Filter>
+    </Image>
+    <Image Include="..\Assets\Textures\Buttons\exit.dds">
+      <Filter>Assets\Textures\Buttons</Filter>
+    </Image>
+    <Image Include="..\Assets\Textures\Buttons\keyboard.dds">
+      <Filter>Assets\Textures\Buttons</Filter>
+    </Image>
+    <Image Include="..\Assets\Textures\Buttons\keyboard_pressed.dds">
+      <Filter>Assets\Textures\Buttons</Filter>
+    </Image>
+    <Image Include="..\Assets\Textures\Buttons\mouse.dds">
+      <Filter>Assets\Textures\Buttons</Filter>
+    </Image>
+    <Image Include="..\Assets\Textures\Buttons\mouse_pressed.dds">
+      <Filter>Assets\Textures\Buttons</Filter>
+    </Image>
+    <Image Include="..\Assets\Textures\Buttons\play.dds">
+      <Filter>Assets\Textures\Buttons</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Assets\Fonts\fontData.txt">
+      <Filter>Assets\Fonts</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

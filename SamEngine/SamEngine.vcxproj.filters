@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{fb8da71d-5c48-4359-b2ce-bb061e1286fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages">
+      <UniqueIdentifier>{68e23ad2-7b8e-46f1-b758-f6c0422deaa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform_Independent">
+      <UniqueIdentifier>{9db227b3-9818-42f6-96c6-3cfabdce789f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{90ae925c-f25b-4189-bb6a-1180b791712b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{cf7e76fe-36f7-44b9-9e09-32ace34bc3a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{d5fb3245-8f4d-489e-8f1e-3a7a87f23927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{545e61b9-981c-4980-ab03-196867a8cff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene Mangement">
+      <UniqueIdentifier>{7040602d-8e98-4e6c-8615-399384af3963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{283688d8-f967-43cb-9bf3-7fb11592e4de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Platform_Independent</Filter>
+    </ClInclude>
+    <ClInclude Include="Window_DX.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Platform_Independent</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer_DX.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="System.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Platform_Independent</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO.h">
+      <Filter>Platform_Independent</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Platform_Independent</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO_DX.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyPressMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ObserverSubject.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_DX.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Platform_Independent</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjImporter.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSystem.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleColliderComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxColliderComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="InverseCircleColliderComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMoveMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene Mangement</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Scene Mangement</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseDownMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="UIObject.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonControllerComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFieldInputController.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsFile.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer_GL.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_GL.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO_GL.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Window_GL.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>Platform_Independent</Filter>
+    </ClCompile>
+    <ClCompile Include="Window_DX.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Platform_Independent</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer_DX.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="System.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Platform_Independent</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO.cpp">
+      <Filter>Platform_Independent</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO_DX.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyPressMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ObserverSubject.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_DX.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Platform_Independent</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjImporter.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="InputComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSystem.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSystem.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleColliderComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxColliderComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="InverseCircleColliderComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseMoveMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene Mangement</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scene Mangement</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseDownMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="UIObject.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonControllerComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFieldInputController.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsFile.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer_GL.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_GL.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO_GL.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Window_GL.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

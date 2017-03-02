@@ -1,0 +1,12 @@
+// Controls - WM Keycodes
+p1_up 38
+p1_down 40
+p1_left 37
+p1_right 39
+p2_up 87
+p2_down 83
+p2_left 65
+p2_right 68
+// Tunnel Settings
+tunnelIncrement 0.05
+tunnelMaxVel 40.0

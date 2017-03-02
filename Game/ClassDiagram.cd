@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ShipControllerComponent" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAQAAAAACAAAIIAABAAQREIAEAgJAAEAAAAAAA=</HashCode>
+      <FileName>ShipControllerComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TunnelSpeedMessage" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TunnelSpeedMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Obstacle" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgwACAAAAQAABAAAAAgACABAAAAAAAAAAACgCAAAAAA=</HashCode>
+      <FileName>Obstacle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerUp" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwICgABAAAABAAAAAAACAAAAAAAAAAAAACgAACAAAA=</HashCode>
+      <FileName>PowerUp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreDisplay" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAQAAAA=</HashCode>
+      <FileName>ScoreDisplay.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ship" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAUAAAAQAQAADgACAAAAAAAAgQCAAAAABAiAiAAAAIA=</HashCode>
+      <FileName>Ship.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tunnel" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAYAAQABAaIANAQAAAAQgAAQgBEAAAAAACCABAAAIgA=</HashCode>
+      <FileName>Tunnel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlSelectScene" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgQCAAEAAAAABQAAAAAAIAACAAAEAAAAABWAAAAACyA=</HashCode>
+      <FileName>ControlSelectScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameScene" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQCAAAAAAAABQAAACAAJQAAAIIAAAAAABCAAAACADA=</HashCode>
+      <FileName>GameScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenuScene" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAEAIAAABQAAAAAAAAAAAAAAAEEAABCAAACAAiA=</HashCode>
+      <FileName>MainMenuScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NameEntryScene" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAAIABQAAQAAABQAAAAAAAAAAgBCBAAAAACA=</HashCode>
+      <FileName>NameEntryScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseScene" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAEAAAAABQAAAAAAAAAACAAAAAAAABCAAAAAACA=</HashCode>
+      <FileName>PauseScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoresScene" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAABQAAAAAABAAAAAAAAAAAABCEAAAAACA=</HashCode>
+      <FileName>ScoresScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighScores" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAgAAAAQAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>HighScores.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TunnelGame" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAAAAAAAAAAAAAAAAAAABAACAAAAKI=</HashCode>
+      <FileName>TunnelGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TunnelLevel" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAECJABAAAJAAQgAoQAAgAAAAAAQAABAAAInA=</HashCode>
+      <FileName>TunnelLevel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="VERTEX" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAYAE=</HashCode>
+      <FileName>main.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="TunnelList" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TunnelLevel.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="ControlScheme" Collapsed="true">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShipControllerComponent.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CollisionID" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAEAAAAAAAAABAACAAAAAAAAA=</HashCode>
+      <FileName>CollisionMatrix.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TunnelType" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>Tunnel.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ObstacleType::ObstacleType" Collapsed="true">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAADAAAAAAAIQAAAAAAAIAAAACACAAAAAIAA=</HashCode>
+      <FileName>Obstacle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PowerUpType::PowerUpType" Collapsed="true">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>PowerUp.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

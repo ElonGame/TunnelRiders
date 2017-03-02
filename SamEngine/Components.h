@@ -1,0 +1,11 @@
+#pragma once
+#include "GameObjectComponent.h"
+#include "CameraComponent.h"
+#include "RenderComponent.h"
+#include "BoxColliderComponent.h"
+#include "CircleColliderComponent.h"
+#include "InverseCircleColliderComponent.h"
+#include "CollisionComponent.h"
+#include "InputComponent.h"
+#include "PhysicsComponent.h"
+#include "RenderComponent.h"
